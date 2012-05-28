@@ -1,0 +1,12 @@
+# Checksum Finder Change Log
+
+All changes to Checksum Finder will be logged in this file with each release.
+
+## 1.0a1
+
+This is the initial alpha release of Checksum Finder.
+
+### Goals for Next Release
+
+ + Have the File and Compare text controls accept Enter.
+ + Correct any bugs discovered and get user feedback from this alpha.
