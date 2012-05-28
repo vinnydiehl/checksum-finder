@@ -19,3 +19,7 @@ bin/
 obj/
 Release/
 Debug/
+
+# Temporary Files
+.*.swp
+*~
