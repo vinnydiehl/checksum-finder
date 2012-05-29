@@ -236,7 +236,7 @@ void frmMain::showAbout(wxCommandEvent &WXUNUSED(event))
 {
     wxAboutDialogInfo info;
     info.SetName(_T("Checksum Finder"));
-    info.SetVersion(_T("1.0a1"));
+    info.SetVersion(_T("0.1"));
     info.SetDescription(_T("Finds the MD5/SHA-1 checksums of a file."));
     info.SetCopyright(_T("Copyright (c) 2012 Vinny Diehl"));
 

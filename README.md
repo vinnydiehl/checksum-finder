@@ -8,12 +8,13 @@ To test a file, simply press the Browse button (or Ctrl+O) and find the file tha
 
 ## Build Instructions
 
-Checksum Finder is written in C++ using wxWidgets 2.8.12. The makefile for this program is configured for the default path that wxWidgets is installed to; if your builds are failing, your include directories may be different. If so, adjust the value of WXCFLAGS to the output of the following command:
+Running this will install all of the needed build tools for this application:
+
+    sudo apt-get install build-essential libwxgtk2.8-dev
+
+Checksum Finder is written in C++ using wxWidgets 2.8.12. If your compiler is having trouble finding the wxWidgets library and you know that you have it installed, check that there is output for the following commands:
 
     wx-config --cppflags
-
-And set the value of WXLFLAGS to the output of:
-
     wx-config --libs
 
 Run ```make``` to build the program, or ```make rebuild``` to completely rebuild the program and all object files.

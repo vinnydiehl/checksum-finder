@@ -2,7 +2,7 @@
 
 All changes to Checksum Finder will be logged in this file with each release.
 
-## 1.0a1
+## 0.1
 
 This is the initial alpha release of Checksum Finder.
 
@@ -10,3 +10,7 @@ This is the initial alpha release of Checksum Finder.
 
  + Have the File and Compare text controls accept Enter.
  + Correct any bugs discovered and get user feedback from this alpha.
+
+#### Patches
+
+ + 0.1.0.1 - Fixed debian build.
